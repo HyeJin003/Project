@@ -1,0 +1,39 @@
+nav {
+  ul {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    align-items: center;
+  }
+  li {
+    list-style-type: none;
+    align-items: center;
+  }
+}
+
+.profile {
+  background: var(--background);
+}
+.login {
+  position: absolute;
+  top: 50%;
+  right: 80px; /* profile과 겹치지 않도록 간격 */
+  display: flex;
+  height: 32px;
+  align-items: center;
+}
+
+.profile {
+  position: absolute;
+  top: 50%;
+  right: 0; /* 맨 오른쪽 */
+  display: flex;
+  height: 32px;
+}
+
+.profile img {
+  height: 32px;
+  display: block;
+}
