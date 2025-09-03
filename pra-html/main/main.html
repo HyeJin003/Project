@@ -8,25 +8,29 @@
     <link rel="stylesheet" href="../../pra-css/main.css" />
   </head>
   <body>
-    <a href="../../index.html">Index로 이동</a>
-    <nav>
-      <ul>
-        <li class="menu">
-          <a href="../../index.html">
-            <img src="../../pra-css/img/menu/menu.svg" alt="메뉴" />
-          </a>
-        </li>
-        <li class="login">
-          <a href="../../index.html">로그인</a>
-        </li>
-        <li class="profile">
-          <a href="../../index.html">
-            <img src="../../pra-css/img/menu/profile.svg" alt="프로필" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <label class="sr-only">검색하기</label>
-    <input type="text" class="text" aria-label="검색하기" />
+    <a href="../main/menu.html">Index로 이동</a>
+    <header>
+      <nav class="header-nav">
+        <ul>
+          <li class="menu">
+            <a href="../../index.html"
+              ><img src="../../pra-css/img/menu/menu.svg" alt="메뉴"
+            /></a>
+          </li>
+          <li class="search">
+            <form class="search-form">
+              <label class="sr-only">검색하기</label>
+              <input type="text" aria-label="검색하기" />
+            </form>
+          </li>
+          <li class="login-profile">
+            <a href="#">로그인</a>
+            <a href="#" class="profile">
+              <img src="../../pra-css/img/menu/profile.svg" alt="프로필" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
