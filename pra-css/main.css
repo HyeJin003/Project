@@ -1,24 +1,26 @@
-nav {
+header {
+  /* border: 2px solid red; */
   ul {
-    --height: 32px;
+    list-style: none;
     display: flex;
-    position: relative;
-    padding: 0;
-    margin: 10px;
-    width: 100%; /* 또는 max-width: 1200px 정도로 제한 */
-    height: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .menu {
+    display: flex;
     align-items: center;
   }
-  li {
-    list-style-type: none;
+  .login {
+    display: flex;
+    margin-left: auto;
+    font-size: 25px;
     align-items: center;
   }
   .profile img {
-    height: var(--height);
-    padding-right: 20px;
-  }
-  .login {
-    margin-left: auto;
-    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    display: block; /* 이미지 하단 여백 제거 */
   }
 }
