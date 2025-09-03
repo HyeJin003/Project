@@ -2,6 +2,7 @@
   list-style: none;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 배치 */
+  white-space: nowrap;
   align-items: center;
   padding: 1rem;
   gap: 1rem;
